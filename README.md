@@ -37,7 +37,10 @@
 <img src="https://postfiles.pstatic.net/MjAxOTA1MjlfMTg0/MDAxNTU5MDY3MzM3MDA4.wTEX3hdPe4XGk96MDbmzivUi8WtdqO3-eSrVcJkLd4gg.rAPcyLQIM8h7ej8bhqMStkTD0AusGLEKMZmPkRVRhGIg.PNG.myungjae18/SalesPage_list.png?type=w773"/>
 (1)모든 게임의 매출 정보를 표현
 <h2>클라이언트</h2>
-클라이언트 부분 담당 업무 : 상단 bar, 게임 목록, 게임 상세 정보, 로그인 세션 처리
+클라이언트 부분 담당 업무 : 상단 bar, 게임 목록, 게임 상세 정보, 로그인 세션 처리<br>
+-전체 디자인<br>
+(1)사용 템플릿 : https://www.themezy.com/demos/11-ecommerce-video-games-responsive-template<br>
+(2)깔끔하고 게임 사이트만의 감성이 담겨있는 디자인 추구<br>
 <h3>1.상단 bar</h3>
 <img src="https://postfiles.pstatic.net/MjAxOTA1MjlfMTky/MDAxNTU5MDcwMTUzMjc2.C9WHjzVFJBavYaf8YREeIOnbLGISSfpmXo4EbSXJijcg.LD27dQh4gqs8XsVjGZGqzpKMxAnd6BtyY8nPB5tPnxog.PNG.myungjae18/TopBar.png?type=w773"/>
 (1)각 항목을 누르면 그에 해당하는 페이지로 이동<br>
