@@ -38,3 +38,21 @@
 (1)모든 게임의 매출 정보를 표현
 <h2>클라이언트</h2>
 클라이언트 부분 담당 업무 : 상단 bar, 게임 목록, 게임 상세 정보, 로그인 세션 처리
+<h3>1.상단 bar</h3>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MjlfMTky/MDAxNTU5MDcwMTUzMjc2.C9WHjzVFJBavYaf8YREeIOnbLGISSfpmXo4EbSXJijcg.LD27dQh4gqs8XsVjGZGqzpKMxAnd6BtyY8nPB5tPnxog.PNG.myungjae18/TopBar.png?type=w773"/>
+(1)각 항목을 누르면 그에 해당하는 페이지로 이동<br>
+(2)장바구니, 내 페이지와 같은 로그인이 필요한 서비스의 경우 세션 여부에 따라 접근을 결정
+<h3>2.게임 목록 페이지</h3>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MjlfODkg/MDAxNTU5MDY3MzU0Mzcz.daub0_7H2nWsEZEH_w3LrHkTvHcPK86tUgWNe7OLIykg.o5n-9SzSNGxdlrZf8S5_wkqzSiaIApDAD9mtvvRVLZkg.PNG.myungjae18/GameListPage.png?type=w773"/>
+(1)원하는 정렬과 카테고리를 지정하여 그에 해당하는 게임들을 볼 수 있음<br>
+(2)각 게임 레이어들을 클릭 시 그 게임의 상세 정보 페이지로 이동<br>
+(3)장바구니에 추가, 결제 같은 로그인이 필요한 서비스의 경우 세션 여부에 따라 접근을 결정
+<h3>3.게임 상세 정보 페이지</h3>
+<img src="https://postfiles.pstatic.net/MjAxOTA1MjlfMTMg/MDAxNTU5MDY3MzU0Mzc0.-9KCWOO_ym4V4J9ykHAthfSNrAZh16HDz0kK0kwBbswg.mRLf0rmatAHGSjgAly9jblU19rPNJbAlwus98YOkBfwg.PNG.myungjae18/GameDetailPage.png?type=w773"/>
+(1)리뷰는 모든 사람이 볼 수 있으나, 작성 및 수정 삭제는 로그인한 유저만 가능하게 처리
+(2)메인 페이지, 게임 목록 페이지 등에서 넘어온 game_id로 조회하여 게임 상세 정보를 보여줌
+(3)각 사진을 클릭 시 별도의 팝업 창이 나와 사진을 크게 볼 수 있음
+(4)장바구니에 추가, 결제도 마찬가지로 로그인한 유저만 가능하게 처리
+<h3>4.로그인 세션 처리</h3>
+(1)모든 로그인이 필요한 서비스에 세션 여부를 확인하여 접근을 제한
+(2)로그아웃했을 경우 세션을 제거
